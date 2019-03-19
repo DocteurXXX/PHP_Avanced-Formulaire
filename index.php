@@ -56,28 +56,28 @@
                 <div class="col-lg-12">
                     <div class="form-group">
                         <label for="inputfirstname">First name</label>
-                        <input type="text" name="firstname" class="form-control" id="inputfirstname"  value="<?= isset($_SESSION['inputs']['firstname']) ? $_SESSION['inputs']['firstname']:''; ?>">
+                        <input type="text" name="firstname" class="form-control" id="inputfirstname"  value="<?= isset($_SESSION['inputs']['firstname']) ? $_SESSION['inputs']['firstname']:''; ?>" required>
                     </div>
                 </div>
 
                 <div class="col-lg-12">
                     <div class="form-group">
                         <label for="inputsurname">Surname</label>
-                        <input type="text" name="surname" class="form-control" id="inputsurname"  value="<?= isset($_SESSION['inputs']['surname']) ? $_SESSION['inputs']['surname']:''; ?>">
+                        <input type="text" name="surname" class="form-control" id="inputsurname"  value="<?= isset($_SESSION['inputs']['surname']) ? $_SESSION['inputs']['surname']:''; ?>" required>
                     </div>
                 </div>
 
                 <div class="col-lg-12">
                 <div class="form-group">
                     <label for="inputemail">e-mail</label>
-                    <input type="email" name="email" class="form-control" id="inputemail" value="<?= isset($_SESSION['inputs']['email']) ? $_SESSION['inputs']['email']:''; ?>">
+                    <input type="email" name="email" class="form-control" id="inputemail" value="<?= isset($_SESSION['inputs']['email']) ? $_SESSION['inputs']['email']:''; ?>" required>
                 </div>
                 </div>
 
                 <div class="col-lg-12">
                     <div class="form-group">
                         <label for="inputphone">Phone</label>
-                        <input type="tel" name="phone" class="form-control" id="inputphone" value="<?= isset($_SESSION['inputs']['phone']) ? $_SESSION['inputs']['phone']:''; ?>">
+                        <input type="tel" name="phone" class="form-control" id="inputphone" value="<?= isset($_SESSION['inputs']['phone']) ? $_SESSION['inputs']['phone']:''; ?>" required>
                     </div>
                 </div>
 
@@ -95,7 +95,7 @@
                 <div class="col-lg-12">
                     <div class="form-group">
                         <label for="inputmessage">Your message</label>
-                        <textarea type="text" name="message" class="form-control" id="inputmessage" rows="5"  value="<?= isset($_SESSION['inputs']['message']) ? $_SESSION['inputs']['message']:''; ?>"></textarea>
+                        <textarea type="text" name="message" class="form-control" id="inputmessage" rows="5"  value="<?= isset($_SESSION['inputs']['message']) ? $_SESSION['inputs']['message']:''; ?>" required></textarea>
                     </div>
                 </div>
 
