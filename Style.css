@@ -1,0 +1,18 @@
+.button {
+  margin-top: 3em;
+  
+}
+
+.form-group .listederoulante {
+  margin-top: 2em;
+  margin-bottom: 1em;
+
+}
+
+input:invalid {
+  border: 2px solid black;
+}
+
+input:valid {
+  border: 1px solid black;
+}
